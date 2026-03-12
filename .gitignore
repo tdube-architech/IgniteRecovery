@@ -24,5 +24,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Local Netlify folder
+# Local N.netlify
+build_output.txt
+build_output_2.txt
+ai-marketing-claude
 .netlify
