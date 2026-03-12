@@ -212,14 +212,14 @@ const Home: React.FC = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-32 brand-gradient relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-r from-brand-indigo to-brand-purple relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
           <h2 className="text-white text-5xl lg:text-7xl font-black mb-10 leading-tight">Take back the flame.</h2>
           <p className="text-white/80 text-xl lg:text-3xl mb-16 font-medium">
             Restoring agency. Delivering care with integrity.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
-            <Link href="/intake" className="w-full sm:w-auto bg-brand-magenta text-white px-16 py-6 rounded-full font-black text-2xl shadow-2xl hover:bg-brand-purple hover:scale-105 transition-all">
+            <Link href="/intake" className="w-full sm:w-auto bg-white text-brand-indigo px-16 py-6 rounded-full font-black text-2xl shadow-2xl hover:bg-gray-100 hover:scale-105 transition-all">
               Start Your Journey
             </Link>
           </div>
