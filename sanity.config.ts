@@ -47,6 +47,16 @@ export default defineConfig({
                     S.documentTypeListItem('openPosition').title('Open Positions'),
                   ])
               ),
+            S.listItem()
+              .title('Resources')
+              .child(
+                S.list()
+                  .title('Resources')
+                  .items([
+                    S.documentTypeListItem('resourceCategory').title('Resource Categories'),
+                    S.documentTypeListItem('resourceItem').title('Resource Items'),
+                  ])
+              ),
           ]),
     }),
     visionTool(),
