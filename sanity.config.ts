@@ -38,6 +38,15 @@ export default defineConfig({
                     S.documentTypeListItem('teamMember').title('Team Members'),
                   ])
               ),
+            S.listItem()
+              .title('Careers')
+              .child(
+                S.list()
+                  .title('Careers')
+                  .items([
+                    S.documentTypeListItem('openPosition').title('Open Positions'),
+                  ])
+              ),
           ]),
     }),
     visionTool(),
