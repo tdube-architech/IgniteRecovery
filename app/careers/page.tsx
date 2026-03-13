@@ -3,6 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowRight, Briefcase, HeartHandshake, Users, ShieldCheck } from 'lucide-react';
 
+import { client } from '../../lib/sanity';
+
 export const metadata: Metadata = {
   title: 'Career Opportunities | Ignite Recovery',
   description: 'Join the Ignite Recovery team in Fall River, MA. We are looking for passionate individuals with lived experience to provide clinical skill and genuine heart to recovery support.',
@@ -11,7 +13,37 @@ export const metadata: Metadata = {
   }
 };
 
-const CareersPage: React.FC = () => {
+interface OpenPosition {
+  _id: string;
+  positionName: string;
+  isActive: boolean;
+  datePosted: string;
+  location: string;
+  description: string;
+}
+
+export const dynamic = 'force-dynamic';
+
+export default async function CareersPage() {
+    let positions: OpenPosition[] = [];
+    
+    try {
+        const query = `*[_type == "openPosition" && isActive == true] | order(datePosted desc) {
+            _id,
+            positionName,
+            isActive,
+            datePosted,
+            location,
+            description
+        }`;
+        positions = await client.fetch(query);
+    } catch (error) {
+        console.error("Error fetching open positions from Sanity:", error);
+    }
+
+    // Default border colors for cycling through job cards
+    const borderColors = ['border-brand-magenta', 'border-brand-purple', 'border-brand-indigo', 'border-brand-lavender'];
+
     return (
         <div className="pt-32 pb-24 min-h-screen bg-gray-50">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,37 +74,28 @@ const CareersPage: React.FC = () => {
                     </h3>
                     
                     <div className="space-y-8">
-                        {/* Job 1 */}
-                        <div className="bg-white rounded-3xl p-8 shadow-md border-l-8 border-brand-magenta hover:shadow-xl transition-shadow">
-                            <h4 className="text-2xl font-black text-brand-indigo mb-4">Recovery Coach</h4>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                Our Recovery Coaches are the backbone of what we do. You've lived it, you've made it through, and now you want to help others do the same. You'll work one-on-one with clients to build goals, provide accountability, and show up consistently as a trusted peer. <strong className="text-brand-indigo">Lived experience in recovery required. Certification as a Recovery Coach preferred or willingness to obtain.</strong>
-                            </p>
-                        </div>
-
-                        {/* Job 2 */}
-                        <div className="bg-white rounded-3xl p-8 shadow-md border-l-8 border-brand-purple hover:shadow-xl transition-shadow">
-                            <h4 className="text-2xl font-black text-brand-indigo mb-4">Recovery Support Navigator</h4>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                Our Navigators help clients cut through the chaos of systems, services, and paperwork to get what they actually need. You know the South Coast landscape, you're a connector by nature, and you don't take no for an answer when a client needs help. <strong className="text-brand-indigo">Experience in case management, social services, or community health preferred.</strong>
-                            </p>
-                        </div>
-
-                        {/* Job 3 */}
-                        <div className="bg-white rounded-3xl p-8 shadow-md border-l-8 border-brand-indigo hover:shadow-xl transition-shadow">
-                            <h4 className="text-2xl font-black text-brand-indigo mb-4">CSP-JI Specialist</h4>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                Our CSP-JI Specialists work with individuals navigating recovery and the justice system at the same time. You understand reentry, you can work alongside courts and probation, and you bring a trauma-informed, strengths-based approach to every interaction. <strong className="text-brand-indigo">Experience working with justice-involved populations required.</strong>
-                            </p>
-                        </div>
-
-                        {/* Job 4 */}
-                        <div className="bg-white rounded-3xl p-8 shadow-md border-l-8 border-brand-lavender text-slate-800 hover:shadow-xl transition-shadow">
-                            <h4 className="text-2xl font-black text-brand-indigo mb-4">Licensed Clinician</h4>
-                            <p className="text-slate-600 leading-relaxed font-medium">
-                                We're looking for a licensed clinician who believes in integrated, community-based care and wants to be part of a team that does things differently. <strong className="text-brand-indigo">LICSW, LMHC, or LADC required. Experience in substance use treatment and trauma-informed care strongly preferred.</strong>
-                            </p>
-                        </div>
+                        {positions.length > 0 ? (
+                            positions.map((job, index) => (
+                                <div key={job._id} className={`bg-white rounded-3xl p-8 shadow-md border-l-8 ${borderColors[index % borderColors.length]} hover:shadow-xl transition-shadow`}>
+                                    <h4 className="text-2xl font-black text-brand-indigo mb-2">{job.positionName}</h4>
+                                    <div className="flex items-center text-sm font-bold text-brand-magenta uppercase tracking-wider mb-4">
+                                        <span>{job.location}</span>
+                                        <span className="mx-2">•</span>
+                                        <span>Posted {new Date(job.datePosted + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                                    </div>
+                                    <p className="text-slate-600 leading-relaxed font-medium whitespace-pre-wrap">
+                                        {job.description}
+                                    </p>
+                                </div>
+                            ))
+                        ) : (
+                            <div className="bg-white rounded-3xl p-12 text-center shadow-md border border-gray-100">
+                                <h4 className="text-2xl font-black text-brand-indigo mb-2">No Open Positions Currently</h4>
+                                <p className="text-slate-600 leading-relaxed font-medium">
+                                    We don't have any specific openings at the moment, but we are always looking to connect with talented and passionate people. Feel free to send your resume to <a href="mailto:HR@ignitemyrecovery.com" className="text-brand-magenta hover:underline">HR@ignitemyrecovery.com</a>.
+                                </p>
+                            </div>
+                        )}
                     </div>
                 </div>
 
@@ -117,6 +140,4 @@ const CareersPage: React.FC = () => {
             </div>
         </div>
     );
-};
-
-export default CareersPage;
+}
