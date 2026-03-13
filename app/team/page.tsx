@@ -24,7 +24,7 @@ interface TeamMember {
   image?: any;
 }
 
-export const revalidate = 60; // Revalidate this page every 60 seconds
+export const dynamic = 'force-dynamic'; // Always fetch fresh data from Sanity on page load
 
 export default async function TeamPage() {
     let categories: TeamCategory[] = [];

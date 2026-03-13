@@ -5,7 +5,7 @@ import imageUrlBuilder from '@sanity/image-url';
 export const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'your_project_id', // Replace with their project ID if env doesn't exist
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
-  useCdn: true, // `false` if you want to ensure fresh data
+  useCdn: false, // `false` ensures instant data updates from Studio instead of waiting on Edge Cache
   apiVersion: '2024-03-11', // use current date
 });
 
