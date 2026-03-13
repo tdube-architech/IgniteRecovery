@@ -78,10 +78,10 @@ const Header: React.FC = () => {
                   <Link href="/about" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">About Ignite</Link>
                   <Link href="/team" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Meet the Team</Link>
                   <Link href="/careers" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Careers</Link>
-                  <Link href="/resources" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold">Resources</Link>
                 </div>
               </div>
             </div>
+            <Link href="/resources" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Resources</Link>
             <Link href="/providers" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Providers</Link>
             <div className="relative group">
               <Link href="/faq" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all flex items-center">
