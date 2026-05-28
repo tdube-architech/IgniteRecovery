@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
               </p>
             </div>
             <div className="flex space-x-6">
-              {/* <a href="#" className="text-lavender hover:text-brand-magenta transition-colors"><Facebook size={28} /></a>
-              <a href="#" className="text-lavender hover:text-brand-magenta transition-colors"><Instagram size={28} /></a>
-              <a href="#" className="text-lavender hover:text-brand-magenta transition-colors"><Linkedin size={28} /></a> */}
+              <a href="https://www.facebook.com/IgniteMyRecovery/" target="_blank" rel="noopener noreferrer" className="text-lavender hover:text-brand-magenta transition-colors" aria-label="Facebook"><Facebook size={28} /></a>
+              <a href="https://www.instagram.com/ignite.recovery.llc" target="_blank" rel="noopener noreferrer" className="text-lavender hover:text-brand-magenta transition-colors" aria-label="Instagram"><Instagram size={28} /></a>
+              <a href="https://www.linkedin.com/company/ignite-recovery-llc" target="_blank" rel="noopener noreferrer" className="text-lavender hover:text-brand-magenta transition-colors" aria-label="LinkedIn"><Linkedin size={28} /></a>
             </div>
 
 
