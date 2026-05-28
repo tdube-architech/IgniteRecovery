@@ -64,7 +64,6 @@ const Header: React.FC = () => {
                   <Link href="/services/recovery-navigation" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Recovery Support Navigation</Link>
                   <Link href="/services/recovery-coaching" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Recovery Coaching</Link>
                   <Link href="/services/clinical-services" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Outpatient Counseling</Link>
-                  <Link href="/services/iop-soap" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">IOP/SOAP Program</Link>
                   <Link href="/services/csp-ji" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold">CSP-JI Services</Link>
                 </div>
               </div>

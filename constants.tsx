@@ -24,16 +24,7 @@ export const SERVICES: Service[] = [
     seoTitle: 'Outpatient Substance Abuse Counseling Fall River, MA | Ignite Recovery',
     metaDesc: 'Professional individual, group, and family therapy in Fall River. Restore your agency through evidence-based clinical care.',
   },
-  {
-    id: 'iop-soap',
-    title: 'IOP/SOAP Program',
-    path: '/services/iop-soap',
-    shortDescription: 'Intensive Outpatient and Structured Outpatient Addiction Program.',
-    fullDescription: 'A high-engagement program designed for stability and growth. We provide consistent structure and therapeutic support for adults ready to take their recovery to the next level.',
-    icon: 'Activity',
-    seoTitle: 'IOP Program in Fall River, MA | Ignite Recovery',
-    metaDesc: 'Join our Intensive Outpatient (IOP) and SOAP programs in Fall River. Structured support for adults 18+ seeking real progress.',
-  },
+
   {
     id: 'recovery-coaching',
     title: 'Recovery Coaching',

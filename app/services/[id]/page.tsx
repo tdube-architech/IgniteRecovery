@@ -78,23 +78,7 @@ export default async function ServiceDetail({ params }: Props) {
                 <h2 className="text-3xl font-black text-brand-indigo mb-6">How our {service.title} works</h2>
                 <p className="mb-8">{service.fullDescription}</p>
 
-                {service.id === 'iop-soap' ? (
-                  <div className="mt-12 bg-lavender/5 p-8 rounded-2xl border border-lavender/20">
-                    <h3 className="text-2xl font-bold text-brand-indigo mb-4">Evening IOP - Because Life Doesn't Wait</h3>
-                    <p className="font-medium text-slate-700 leading-relaxed mb-4">
-                      You're ready to get serious about recovery. But you've also got work. Kids. A life.
-                    </p>
-                    <p className="font-medium text-slate-700 leading-relaxed mb-4">
-                      That's exactly why we built our evening IOP.
-                    </p>
-                    <p className="font-medium text-slate-700 leading-relaxed mb-4">
-                      Ignite Recovery offers Intensive Outpatient Program (IOP) services licensed through DPH/BSAS and covered by MassHealth - scheduled in the evenings so you can actually show up without blowing up everything else you're holding together.
-                    </p>
-                    <p className="font-medium text-slate-700 leading-relaxed">
-                      You'll get at least 9 hours of support per week across 3 evenings, including group therapy, individual counseling, and real recovery planning that's built around your life - not a one-size-fits-all checklist.
-                    </p>
-                  </div>
-                ) : service.id === 'recovery-coaching' ? (
+                {service.id === 'recovery-coaching' ? (
                   <div className="mt-12 bg-lavender/5 p-8 rounded-2xl border border-lavender/20">
                     <h3 className="text-2xl font-bold text-brand-indigo mb-4">Recovery Coaching: Someone In Your Corner</h3>
                     <p className="font-medium text-slate-700 leading-relaxed mb-4">

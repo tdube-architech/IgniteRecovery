@@ -52,7 +52,7 @@ const faqSchema = {
       "name": "What services do you offer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer evening IOP, outpatient counseling, recovery coaching, recovery support navigation, and CSP-JI services for justice-involved individuals. Head to our Services page to learn more about each one."
+        "text": "We offer outpatient counseling, recovery coaching, recovery support navigation, and CSP-JI services for justice-involved individuals. Head to our Services page to learn more about each one."
       }
     },
     {
@@ -130,7 +130,7 @@ const Faq: React.FC = () => {
 
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
                     <h4 className="text-xl font-bold text-brand-purple mb-4">What services do you offer?</h4>
-                    <p className="text-slate-600 leading-relaxed">We offer evening IOP, outpatient counseling, recovery coaching, recovery support navigation, and CSP-JI services for justice-involved individuals. Head to our Services page to learn more about each one.</p>
+                    <p className="text-slate-600 leading-relaxed">We offer outpatient counseling, recovery coaching, recovery support navigation, and CSP-JI services for justice-involved individuals. Head to our Services page to learn more about each one.</p>
                 </div>
 
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">

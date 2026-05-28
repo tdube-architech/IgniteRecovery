@@ -83,8 +83,7 @@ const IntakeForm: React.FC = () => {
             {_id: '1', title: 'Recovery Coach'},
             {_id: '2', title: 'DynamiCare'},
             {_id: '3', title: 'Recovery Support Navigator'},
-            {_id: '4', title: 'IOP/SOAP'},
-            {_id: '5', title: 'Clinical'}
+            {_id: '4', title: 'Clinical'}
           ]);
         }
 
