@@ -4,7 +4,7 @@ import IntakeForm from '../../components/IntakeForm';
 import { Phone, Clock, FileCheck, ShieldCheck, MessageSquare } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Start Your Recovery Journey — Free Intake | Ignite Recovery, Fall River MA',
+  title: 'Start Your Recovery Journey | Ignite Recovery, Fall River MA',
   description: 'Start your recovery journey today. Complete our confidential intake form or call (508) 296-0523. MassHealth accepted. No referral needed.',
   alternates: {
     canonical: 'https://ignitemyrecovery.com/intake'
