@@ -1,25 +1,26 @@
 # Marketing Audit: Ignite Recovery LLC
 **URL:** https://ignitemyrecovery.com
-**Date:** March 12, 2026
-**Business Type:** Agency/Services — Licensed Outpatient Recovery Support Services Program
-**Overall Marketing Score: 48/100 (Grade: D)**
+**Date:** March 11, 2026
+**Business Type:** Local Health Services / Recovery Support Organization
+**Location:** 672 Bedford St, Fall River, MA 02720 (+ Attleboro office)
+**Overall Marketing Score: 35/100 (Grade: F)**
 
 ---
 
 ## Executive Summary
 
-Ignite Recovery LLC scores 48/100 — a **below-average** marketing grade that masks a deeply uneven profile. The organization's conversion optimization (78/100) is genuinely impressive for a small outpatient provider, featuring sticky mobile CTAs, a well-designed 4-step intake wizard, and empowering, non-judgmental copy. However, this strong "front door" is nearly invisible because of critical failures in discoverability: the JavaScript-rendered website has only **2 of 12 pages indexed by Google**, there is no Google Business Profile, no content marketing strategy, and no active SEO program.
+Ignite Recovery scores a **35 out of 100**, placing it in the "Critical — fundamental marketing issues" tier. This does not reflect the quality of the organization's services — the 10+ heartfelt client testimonials make it clear that Ignite changes lives. It reflects the gap between the excellent care being delivered and how that care is presented online.
 
-The biggest strength is what Ignite *actually delivers*. Client testimonials praise specific staff members by name, describe life-changing court navigation support, and credit the team with hand-holding through early recovery. The service breadth — combining clinical counseling (CBT, motivational interviewing, trauma therapy) with wraparound support (housing, employment, case management, naloxone education) — is genuinely differentiated. Portuguese and Sign Language services are unique competitive assets in Fall River's 40%+ Portuguese-speaking community.
+**Biggest Strength:** Authentic social proof. The testimonials are specific, emotional, and name individual staff members. In recovery services, where trust is everything, this is a genuine competitive asset that most organizations cannot replicate.
 
-The biggest gap is that **almost none of this is visible online**. The site's JS rendering blocks search engine indexing. There's no blog, no educational content, no Google Business Profile reviews, and the 3.5/5 rating on Recovered.org trails every major competitor. Ignite is the best-kept secret in Southeastern Massachusetts recovery services — and in healthcare marketing, being a secret is fatal.
+**Biggest Gap:** Technical SEO and discoverability. The site is functionally invisible to search engines — page titles are single generic words ("Home", "About", "Contact"), there is zero structured data, and no local SEO keywords appear in any title or heading. A person searching "recovery support services Fall River MA" is unlikely to find Ignite.
 
-**Top 3 actions that would move the needle most:**
-1. Fix JS rendering and create a Google Business Profile (estimated 3-5x organic visibility increase)
-2. Launch Portuguese-language content and marketing (blue-ocean opportunity with zero competition)
-3. Reduce intake callback time from 24-48 hours to same-day (capture moments of motivation)
+**Top 3 Actions That Would Move the Needle Most:**
+1. **Rewrite all page titles and the homepage hero** to include services, location, and insurance info — this single change could dramatically improve search visibility and first-impression clarity
+2. **Make the phone number click-to-call** and add a sticky mobile CTA — for people in crisis, one tap to call could be the difference between reaching out and bouncing
+3. **Fix all typos and remove the empty Events section** — the footer typo ("Substance Addition" instead of "Addiction") appears on every page and undermines the BSAS licensing credibility claim
 
-**Estimated total revenue impact of implementing all recommendations:** $100,000–$300,000/year in additional client revenue, plus eligibility for $50,000–$200,000/year in opioid settlement fund contracts.
+**Estimated revenue impact of implementing all recommendations:** Given Ignite's insurance-funded model, improvements would primarily increase client volume. A conservative estimate of a 40-60% increase in inbound contacts from Priority 1-2 changes could translate to 5-15 additional clients per month, representing significant MassHealth billing revenue.
 
 ---
 
@@ -27,76 +28,153 @@ The biggest gap is that **almost none of this is visible online**. The site's JS
 
 | Category | Score | Weight | Weighted Score | Key Finding |
 |----------|-------|--------|---------------|-------------|
-| Content & Messaging | 34/100 | 25% | 8.5 | Generic tagline, no content marketing, clinical language over client language |
-| Conversion Optimization | 78/100 | 20% | 15.6 | Strong mobile CTAs and intake wizard, but 24-48hr callback is too slow |
-| SEO & Discoverability | 32/100 | 20% | 6.4 | **CRITICAL:** JS rendering blocks indexing — only 2/12 pages in Google |
-| Competitive Positioning | 46/100 | 15% | 6.9 | Real differentiators (Portuguese, wraparound) are invisible to market |
-| Brand & Trust | 50/100 | 10% | 5.0 | BSAS licensed but no Google reviews, team bios, or outcome data |
-| Growth & Strategy | 58/100 | 10% | 5.8 | Perfect market timing (opioid crisis + settlement $), passive execution |
-| **TOTAL** | | **100%** | **48/100** | |
+| Content & Messaging | 42/100 | 25% | 10.5 | Homepage fails the 5-second test; strongest content buried on secondary pages |
+| Conversion Optimization | 28/100 | 20% | 5.6 | Phone number not clickable; no crisis info; generic CTAs lack urgency |
+| SEO & Discoverability | 22/100 | 20% | 4.4 | Page titles are empty; zero schema markup; no local SEO targeting |
+| Competitive Positioning | 42/100 | 15% | 6.3 | Genuine differentiators (agency philosophy, lived experience) are under-leveraged |
+| Brand & Trust | 52/100 | 10% | 5.2 | Strong testimonials but no team page, no outcomes data, typos on every page |
+| Growth & Strategy | 31/100 | 10% | 3.1 | Zero growth loops; single-payer dependency; no content or referral strategy |
+| **TOTAL** | | **100%** | **35.1/100** | |
 
 ---
 
 ## Quick Wins (This Week)
 
-1. **Create and verify a Google Business Profile** for the Fall River location. Add complete business info, photos, services, hours, and begin requesting reviews from satisfied clients. *This is the single highest-ROI action available.* GBP drives ~42% of clicks for local searches. **Impact: High — 50-100 new monthly search impressions within 30 days.**
+### 1. Fix All Typos and Errors
+**What:** Correct every typo identified across the site
+**Where:** Footer (all pages), homepage, About page, URL
 
-2. **Add meta descriptions to every page.** Currently, no page has a meta description — Google auto-generates suboptimal snippets. Write unique, keyword-rich descriptions (150-160 characters) for each of the 12 pages. **Impact: Medium — 5-10% CTR improvement on indexed pages.**
+| Location | Current | Corrected |
+|---|---|---|
+| Footer (all pages) | "Bureau of Substance Addition Services" | "Bureau of Substance **Addiction** Services" |
+| Homepage H2 | "How can we Help" | "How Can We Help?" |
+| About page | "We do no practice Agency" | "We do **not** practice Agency" |
+| About page | "at every leve" | "at every leve**l**" |
+| About page | "How are values" | "**Our** values" |
+| Footer | Copyright 2023 | Copyright 2026 |
 
-3. **Add CTAs to the FAQ and Insurance pages.** After answering objections, these pages should drive action with a "Ready to take the next step?" section linking to intake and phone. **Impact: Medium — captures visitors at peak readiness.**
+**Why:** For a licensed clinical organization, typos on the licensing statement directly undermine credibility. The footer error appears on every single page.
+**Impact:** High — removes a credibility objection on every page view
 
-4. **Update the insurance page** to include private insurance, cash/self-pay, and sliding scale options (these are accepted but not mentioned on the website). Add insurance logos. **Impact: Medium — removes a major conversion barrier for non-MassHealth clients.**
+### 2. Make the Phone Number Click-to-Call
+**What:** Wrap every instance of (508) 296-0523 in a `tel:` link
+**Where:** Every page (header, footer, contact page)
+**Why:** Mobile visitors — often people in crisis — should be able to tap once to call. This is a 10-minute fix with potentially the highest conversion impact on the entire site.
+**Impact:** 20-30% increase in phone contacts from mobile visitors (industry benchmark)
 
-5. **Add "Prefer to text?" as a contact option** alongside phone and intake form. Many people in early recovery or crisis prefer texting over calling. **Impact: Medium — captures a segment currently lost.**
+### 3. Remove or Hide the Empty Events Section
+**What:** Delete the "Upcoming Events" section from the homepage
+**Where:** Homepage
+**Why:** Displaying "We hope to see you!" with zero events signals neglect and organizational inactivity. An empty section is worse than no section.
+**Impact:** Medium — removes a credibility-damaging signal
 
-6. **Standardize NAP (Name, Address, Phone) across all directories.** Two different addresses (672 Bedford St vs. 323 French St) and two phone numbers appear across listings. Pick one of each and update all listings to match. **Impact: Medium — 15-25% improvement in local ranking signals.**
+### 4. Add Crisis/Emergency Contact Information
+**What:** Add to footer and contact page: "If you or someone you know is in immediate danger, call 911. For the Suicide & Crisis Lifeline, call or text 988."
+**Where:** Footer (all pages), Contact page
+**Why:** For a substance use disorder services site, this is both an ethical obligation and a trust signal. Its absence is notable.
+**Impact:** Medium — demonstrates duty of care and professional standards
 
-7. **Respond professionally to the negative review on Detox.net.** Show prospective clients that feedback is taken seriously and the organization is responsive. **Impact: Low-Medium — reputation management signal.**
+### 5. Update Copyright Year
+**What:** Change "Copyright 2023" to "Copyright 2026" (or make it dynamic)
+**Where:** Footer (all pages)
+**Why:** A 3-year-old copyright signals an abandoned site
+**Impact:** Low-medium — removes an abandonment signal
 
-8. **Add time-expectation messaging to the intake form** ("This takes about 5 minutes") to reduce abandonment before starting. **Impact: Low — reduces perceived friction.**
+### 6. Fix Duplicated Footer Navigation
+**What:** Fix the template bug causing "Home Home", "About About" doubled text in footer links
+**Where:** Footer (all pages)
+**Why:** Looks broken and unprofessional; creates redundant internal link signals for search engines
+**Impact:** Low — cleanup fix
+
+### 7. Rewrite the Primary CTA Text
+**What:** Replace "Contact Us" with "Get Help Today" or "Start Your Recovery"
+**Where:** Homepage hero, footer CTA buttons
+**Why:** "Contact Us" is emotionally flat. In recovery services, action-oriented, empathetic CTAs convert 2-3x higher.
+**Impact:** Medium — directly affects click-through rates on every page
 
 ---
 
 ## Strategic Recommendations (This Month)
 
-1. **Fix the JavaScript rendering problem.** This is the #1 technical priority. Only 2 of 12 pages are indexed by Google — an 83% indexation failure rate. Options:
-   - **Best:** Migrate to a platform with server-side rendering (WordPress, Webflow)
-   - **Faster:** Implement a prerendering service (Prerender.io, Rendertron)
-   - **Minimum:** Enable any SSR options available on current platform
-   **Impact: High — estimated 3-5x increase in organic visibility.**
+### 1. Rewrite All Page Titles and Meta Descriptions
+**What:** Replace generic single-word titles with keyword-rich, descriptive titles
+**Examples:**
+- Homepage: `Recovery Support Services in Fall River, MA | Ignite Recovery`
+- About: `About Our Recovery Programs — Agency-Centered Care | Ignite Recovery`
+- FAQ: `Recovery Services FAQ — Insurance, Enrollment, Coaching | Ignite Recovery`
+- Contact: `Contact Ignite Recovery — Fall River & Attleboro, MA | (508) 296-0523`
 
-2. **Develop Portuguese-language content and marketing.** Fall River has 45,000+ Portuguese-speaking residents. No competitor actively markets in Portuguese. Create Portuguese versions of key pages, run targeted Facebook ads in Portuguese, and promote Portuguese-speaking staff. This is a **blue-ocean opportunity.** **Impact: High — potentially doubles addressable market in Fall River.**
+Add 150-160 character meta descriptions to every page with service keywords, location, and CTA.
+**Why:** This is the single highest-impact SEO change possible. The current titles ("Home", "About", "Contact") provide zero search relevance.
+**Impact:** High — could double or triple organic search visibility within weeks
 
-3. **Reduce intake callback time from 24-48 hours to same-day (under 4 hours).** In recovery services, moments of motivation are fleeting. A 48-hour wait risks losing clients who were ready to start. Add automated confirmation SMS/email immediately upon form submission. **Impact: High — estimated 30-40% conversion lift on form submissions.**
+### 2. Rewrite the Homepage Hero Section
+**What:** Replace the current generic hero with specific, benefit-driven messaging
+**Recommended:**
+- **H1:** "Recovery Support Services in Fall River, MA"
+- **Subtitle:** "Peer coaching, clinical services, and recovery navigation — covered by MassHealth. Take the first step today."
+- **Primary CTA:** "Talk to a Recovery Coach" or "Check If You Qualify"
+- **Secondary CTA:** "Learn About Our Services"
 
-4. **Build out the About/Team page with staff photos, bios, and credentials.** In recovery services, clients want to know who will help them. Feature Laura Goode's founder story, counselor credentials (CADC, LADC, LMHC), and personal philosophies. **Impact: High — trust is the #1 conversion factor in recovery.**
+**Why:** The current hero ("Ignite Recovery / Recovery Support Services") fails the 5-second test. It doesn't communicate location, insurance coverage, or differentiation.
+**Impact:** High — first impression drives all downstream conversion
 
-5. **Launch a review generation campaign.** Target 50+ Google reviews with a 4.5+ average within 12 months. Create a simple process where staff ask satisfied clients at discharge or milestones. Current 3.5/5 on Recovered.org trails all major competitors (SSTAR: 4.2, Steppingstone: 4.03). **Impact: High — reviews are the #2 local ranking factor after GBP.**
+### 3. Create a Team/Staff Page
+**What:** A page featuring leadership and key staff with photos, roles, brief bios, and credentials
+**Include:** Staff certifications (CARC, CCAR, LCSW), lived experience (as appropriate), and why they do this work
+**Why:** Testimonials name Amy, Chris, Laura, Courtney, JR, and Lauren — but visitors can't see or learn about these people. For a service built on human relationships, this is the highest-ROI trust improvement available.
+**Impact:** High — directly addresses the #1 trust gap
 
-6. **Implement JSON-LD schema markup** for LocalBusiness, MedicalOrganization, FAQPage, and Service types. This enables rich snippets in search results. **Impact: Medium — 10-20% CTR improvement.**
+### 4. Add LocalBusiness Schema Markup
+**What:** Implement structured data for both locations (Fall River + New Bedford) with NAP, hours, and services. Add FAQPage schema to the FAQ page.
+**Why:** Enables Google Knowledge Panel, rich search results, and local pack visibility. Currently zero structured data exists.
+**Impact:** High — can generate rich snippets and local search features at zero content cost
 
-7. **Add a lightweight "Quick Connect" form** (name + phone only) as an alternative to the full 4-step intake. Place on homepage and service pages for people not ready for a full intake but willing to be contacted. **Impact: Medium — captures leads at earlier readiness stages.**
+### 5. Expand Insurance Information
+**What:** Create a visible section listing specific MassHealth plans accepted, enrollment guidance, and a verification CTA
+**Reframe:** Position as "Committed to making recovery accessible through MassHealth coverage" rather than a limitation
+**Why:** Insurance coverage is the #1 decision factor for the target population. Currently barely addressed.
+**Impact:** High — converts a barrier into a trust signal and conversion driver
+
+### 6. Restructure the Contact Page
+**What:** Replace the long inspirational H2 with concise headline ("Take the First Step — We're Here for You"), add response time expectations, place a testimonial near the form, add HIPAA confidentiality assurance, add service-selection dropdown
+**Why:** The current page creates unnecessary friction between the visitor's intent and the form
+**Impact:** Medium-high — directly affects form completion rates
+
+### 7. Add a Sticky Mobile CTA
+**What:** Fixed-position bar at bottom of mobile viewport with "Call Now" (tel: link) and "Get Help" buttons
+**Why:** Ensures conversion access at every scroll position for mobile users in need
+**Impact:** Medium — standard practice for healthcare and crisis services sites
 
 ---
 
 ## Long-Term Initiatives (This Quarter)
 
-1. **Launch a content marketing program.** Publish 2-4 blog posts per month targeting high-intent local keywords:
-   - "Recovery coaching Fall River MA"
-   - "Outpatient substance use treatment Bristol County"
-   - "Help with addiction in Massachusetts"
-   - "Recovery support for Portuguese-speaking families"
-   - "Navigating recovery with court involvement"
-   Each article: 800-1,200 words, authored by a named clinician, optimized for one primary keyword.
-   **Impact: High — could double organic traffic within 12-18 months. Estimated value: $15-50/click equivalent in paid search.**
+### 1. Launch a Content Marketing Strategy
+**What:** Blog with 2-4 posts per month targeting recovery-related searches
+**Topics:** "What is recovery coaching?", "How to get MassHealth coverage for recovery services", "What to expect in IOP", "Supporting a loved one's recovery"
+**Why:** Builds SEO authority, demonstrates expertise, gives referral sources content to share. Currently Ignite has zero content footprint beyond its static pages.
+**Impact:** Transforms organic search visibility over 3-6 months
 
-2. **Apply for opioid settlement funding.** Fall River expects nearly $8 million over 15 years. Massachusetts statewide allocation exceeds $900 million. Prepare proposals for contracted recovery support services. **Impact: Very High — $50,000-$200,000/year potential.**
+### 2. Build a Referral Partner Program
+**What:** Dedicated referral pathway and page for professionals (hospitals, courts, PCPs). List partner organizations. Create co-marketing materials.
+**Why:** Recovery services depend heavily on professional referrals. Currently no referral relationships are visible or supported on the site.
+**Impact:** Highest-impact growth channel for recovery services
 
-3. **Build formal referral partnerships** with MAT providers (SSTAR, Fall River CTC), hospitals, ERs, courts, and probation departments. Create a one-page "Referral Partner Guide" that makes it easy for referral sources to send clients. Position Ignite as the complementary wraparound service for clients receiving medication-assisted treatment elsewhere. **Impact: High — each institutional partnership = 5-10 new clients/quarter.**
+### 3. Develop Outcome Tracking and Reporting
+**What:** Begin tracking and publishing program metrics — completion rates, clients served annually, retention rates, post-program engagement
+**Why:** Increasingly required by referral sources and differentiates from competitors. Currently zero outcome data exists.
+**Impact:** Strengthens credibility with courts, hospitals, and institutional referral sources
 
-4. **Pursue CARF or Joint Commission accreditation.** This resolves ambiguity around accreditation status, opens doors to additional referral sources and contracts, and boosts Trust Scores on directory sites. **Impact: Medium-High — credibility multiplier.**
+### 4. Create Individual Service Pages
+**What:** Dedicated page for each service (Recovery Coaching, Recovery Navigation, Clinical Services, IOP/SOAP, CSP-JI) with session structure, eligibility, outcomes, testimonials, and enrollment CTA
+**Why:** Allows targeted SEO, deeper engagement, and clearer conversion paths per service
+**Impact:** Medium-high — improves both search visibility and conversion for each service line
 
-5. **Expand statewide telehealth marketing.** Create landing pages targeting underserved Massachusetts communities without local recovery support. Ignite already has telehealth capability — it's just not being marketed. **Impact: Medium-High — expands addressable market beyond Bristol County.**
+### 5. Pursue CARF Accreditation
+**What:** Apply for Commission on Accreditation of Rehabilitation Facilities accreditation
+**Why:** This is the most impactful single credibility signal in behavioral health. Would differentiate from smaller peer organizations and establish parity with larger treatment centers.
+**Impact:** Transformative for referral source confidence and institutional partnerships
 
 ---
 
@@ -104,188 +182,162 @@ The biggest gap is that **almost none of this is visible online**. The site's JS
 
 ### Content & Messaging Analysis
 
-**Score: 34/100**
+**Score: 42/100**
 
-| Dimension | Score |
-|-----------|-------|
-| Headline Clarity | 4/10 |
-| Value Proposition Strength | 3/10 |
-| Body Copy Persuasion | 3/10 |
-| Social Proof Quality | 5/10 |
-| Content Depth & Authority | 2/10 |
-| Brand Voice Consistency | 4/10 |
+The site fails the 5-second test. A first-time visitor sees "Ignite Recovery / Recovery Support Services" — no mention of Fall River, Massachusetts, substance use disorder, who this is for, or what makes Ignite different. The strongest messaging ("We build power, not dependence") is buried on the About page.
 
-**Key Findings:**
+**Strengths:**
+- 10+ authentic client testimonials with emotional depth and staff name mentions
+- Solid mission and values articulation (Agency and Integrity)
+- Comprehensive FAQ content demonstrating genuine expertise
+- Service breadth communicated (Coaching, Navigation, Clinical, IOP/SOAP)
 
-The tagline "Recovery Support & Outpatient Counseling" is functional but generic — it describes a category, not a compelling promise. It would work as a directory listing but fails as a homepage hero. A person in crisis at 2 AM needs to feel understood immediately; this tagline reads like a Yellow Pages entry.
-
-The unique value proposition is buried. Ignite's real differentiators — wraparound services (housing + employment + court navigation + counseling under one roof), Portuguese/Sign language accessibility, and criminal justice expertise — are never distilled into a front-and-center statement. A visitor has to piece together the offering rather than being told: "We provide whole-person recovery support — from counseling and coaching to housing, employment, and court navigation."
-
-Content depth is the most significant weakness. There is **zero evidence of blog content, educational resources, or thought leadership**. For a recovery program, this is devastating: high-intent searches like "how to help someone with addiction" or "what is recovery coaching" drive decisions, and Ignite is invisible for all of them.
-
-The language is clinical rather than client-facing. Terms like "recovery support navigation" and "outpatient substance use counseling" are provider-side language. Clients search for "help with addiction," "drug counseling near me," and "how to stay sober."
-
-**Bright spots:** The homepage hero copy ("Recovery is your choice," "You lead the way," "We honor the individual behind the recovery") is empowering and non-judgmental — a strong voice that should be amplified across all content.
-
----
+**Weaknesses:**
+- Homepage hero communicates almost nothing actionable
+- Multiple typos across every page tier, including the BSAS licensing statement
+- Empty Events section signals site neglect
+- No staff/team visibility despite relationship-centered service model
+- Insurance information underdeveloped (MassHealth acceptance barely mentioned)
+- CTAs are generic ("Contact Us", "About Us") with no emotional urgency
+- No outcome data or impact metrics
+- Brand voice inconsistent — oscillates between clinical, inspirational, and casual
+- Copyright 2023 reinforces neglected web presence
 
 ### Conversion Optimization Analysis
 
-**Score: 78/100**
+**Score: 28/100**
 
-| Dimension | Score |
-|-----------|-------|
-| CTA Effectiveness | 8/10 |
-| Form Friction | 7/10 |
-| Page Layout & Visual Hierarchy | 8/10 |
-| Trust Signals Near Conversion | 7/10 |
-| Mobile Conversion Experience | 9/10 |
-| Signup/Intake Flow | 7/10 |
-| Pricing/Insurance Clarity | 6/10 |
+The site functions as an informational brochure rather than a conversion-optimized lead generation tool. For a recovery services organization where timely contact can be life-changing, the current friction levels are unacceptable.
 
-**Key Findings:**
+**Strengths:**
+- Strong testimonial volume (10+) provides excellent raw material for conversion support
+- Core service offerings clearly defined
+- SMS consent integration shows compliance awareness
+- Dedicated Client Intake form exists
 
-This is Ignite's strongest category and genuinely impressive for a small outpatient provider. Highlights:
-
-- **Dual conversion paths** (online intake + click-to-call) on every page — far better than the phone-only model common in behavioral health
-- **Sticky mobile CTA bar** with "Call Now" and "Start Intake" that persists across the entire site — best-in-class for this industry
-- **4-step intake wizard** (Personal Info → Background → Clinical & Services → Insurance) with progress indicators that break a long clinical intake into digestible steps
-- **Empowering copy in the hero** ("Recovery is your choice," "It's a conversation, not an interrogation") directly reduces the shame barrier
-- **3-step journey preview** (Connect → Collaborate → Cultivate) reduces anxiety about the unknown
-- **Trust signals strategically placed**: BSAS licensing in footer, MassHealth badge in hero, HIPAA messaging on intake form, crisis resources (988, 911) in footer
-
-**Critical gap:** The 24-48 hour callback window is the single biggest conversion risk. In recovery services, motivation is often a window that closes quickly. This should be same-day or under 4 hours.
-
-**Other gaps:** No live chat or text option, FAQ page has no CTA at bottom, insurance page doesn't mention private insurance or sliding scale.
-
----
+**Weaknesses:**
+- Phone number is plain text, not clickable (critical mobile failure)
+- No crisis/emergency contact information on a substance use disorder site
+- Primary CTA "Contact Us" lacks emotional resonance or urgency
+- Testimonials buried far from any conversion point
+- No response time expectations set anywhere
+- Two separate forms (Contact and Intake) with no guidance on which to use
+- No sticky CTA on mobile — conversion opportunity disappears while scrolling
+- No live chat, chatbot, or text option for lower-commitment engagement
+- Contact page form preceded by an overwhelming wall of inspirational text
+- No "What to Expect" or "How It Works" content to reduce fear of the unknown
+- No hours of operation listed anywhere
 
 ### SEO & Discoverability Analysis
 
-**Score: 32/100**
+**Score: 22/100**
 
-| Dimension | Score |
-|-----------|-------|
-| Title Tags & Meta Descriptions | 3/10 |
-| URL Structure & Internal Linking | 6/10 |
-| JavaScript Rendering | 1/10 |
-| Mobile Responsiveness | 5/10 |
-| Page Speed Indicators | 3/10 |
-| Schema Markup | 1/10 |
-| Local SEO | 5/10 |
-| Accessibility | 3/10 |
+The site is functionally invisible to search engines for any competitive query. While it exists and is crawlable, it provides almost no signals about what it is, where it operates, or who it serves.
 
-**Key Findings:**
+**Strengths:**
+- Consistent NAP (name, address, phone) on every page
+- Flat, simple site architecture easy to crawl
+- ServiceWorker registration indicates some modern web capability
+- Social media profiles linked
 
-**The JavaScript rendering problem is catastrophic.** Multiple fetch attempts across all pages returned only the title tag — no body content, headings, images, or links were accessible to non-JS crawlers. Google's index confirms: only **2 of 12 pages are indexed** (homepage and /new-patient-intake). That's an 83% indexation failure rate.
-
-**No Google Business Profile was detected.** For a local service business, this is the most impactful missing element. GBP drives "Map Pack" visibility, which accounts for ~42% of clicks for local searches like "substance abuse counseling Fall River."
-
-**No schema markup of any kind** — missing LocalBusiness, MedicalOrganization, FAQPage, and Service schemas that would enable rich snippets.
-
-**NAP inconsistency** across directories: two different addresses (672 Bedford St vs. 323 French St) and two phone numbers confuse search engines.
-
-**Bright spots:** Clean URL structure (/services/outpatient, /services/recovery-coaching, etc.), proper robots.txt with sitemap reference, and strong directory presence (8+ recovery-specific listings including SAMHSA).
-
----
+**Weaknesses:**
+- Page titles are single generic words with zero keywords ("Home", "About", "Contact")
+- Zero structured data / schema markup — no rich results possible
+- No local SEO keyword targeting anywhere in titles, H1s, or meta descriptions
+- Multiple H1 tags on About page (broken heading hierarchy)
+- URL `/specialities` is permanently misspelled
+- jQuery Migrate legacy dependency loaded
+- Console JavaScript errors
+- No Google Maps embed
+- No Google Business Profile optimization
 
 ### Competitive Positioning Analysis
 
-**Score: 46/100**
+**Score: 42/100**
 
-| Dimension | Score |
-|-----------|-------|
-| Unique Positioning Clarity | 4/10 |
-| Competitor Awareness | 2/10 |
-| Market Category Definition | 3/10 |
-| Pricing Competitiveness | 6/10 |
-| Feature Differentiation | 7/10 |
-| Review/Reputation | 3/10 |
+Ignite has authentic differentiation assets that most competitors cannot replicate — a genuinely distinctive agency-centered philosophy and a structural commitment to lived experience staff. However, these assets are buried beneath generic category language.
 
-**Key Findings:**
+**Strengths:**
+- "We build power, not dependence" is a genuinely distinctive positioning statement
+- Lived experience staff is centered as a structural model, not an add-on
+- Coherent internal philosophy (values, mission, guiding principle all align)
+- Multi-service offering creates a continuum-of-care argument
+- Dual location footprint covers meaningful Bristol County geography
 
-Ignite Recovery has **strong actual differentiation but weak perceived differentiation**. Their unique assets are real:
-
-- **Portuguese language services** in a city with 45,000+ Portuguese speakers — virtually no competitor offers this
-- **Sign language accessibility** — unique in the regional market
-- **Combined recovery coaching + clinical counseling** under one roof
-- **Wraparound services** (housing, employment, case management) that go beyond clinical treatment
-- **Criminal justice specialization** with active court navigation
-
-But none of this is communicated through competitive positioning content. There are no "Why Choose Us" pages, no comparison content, and no market category definition. Ignite blends into directory listings identically to every other outpatient provider.
-
-**Competitive gaps:** No Medicare acceptance (all major competitors accept it), no MAT/medication-assisted treatment (critical in an opioid-crisis epicenter), and the lowest review rating among identified competitors (3.5 vs. SSTAR's 4.2, Steppingstone's 4.03).
-
----
+**Weaknesses:**
+- "Recovery Support Services" tagline is pure category description with zero differentiation
+- Zero outcome data in an increasingly evidence-driven referral environment
+- No content authority footprint (no blog, no resources, no educational content)
+- BSAS licensure is a floor, not a ceiling — no CARF or other accreditations
+- Strongest differentiators buried in messaging hierarchy rather than leading
+- No competitive comparison or "why us" content
+- Insurance limitation framed as constraint rather than mission commitment
+- No visible referral network or partnerships
 
 ### Brand & Trust Analysis
 
-**Score: 50/100**
+**Score: 52/100**
 
-| Dimension | Score |
-|-----------|-------|
-| Business Model Clarity | 6/10 |
-| Trust Signals | 5/10 |
-| About Page/Team Transparency | 5/10 |
-| Social Proof Depth | 4/10 |
-| Professional Credibility | 6/10 |
-| Community Presence | 4/10 |
+The strongest category — driven almost entirely by the quality of testimonials and the coherence of the values framework.
 
-**Key Findings:**
+**Strengths:**
+- Testimonials are the single most effective trust element; specific, emotional, and name individual staff
+- Values (Agency, Integrity) are explained with substance, not just listed
+- Lived experience positioning signals "we understand you"
+- Brand name and fire/spark motif is distinctive and memorable
+- BSAS licensing provides baseline institutional legitimacy
 
-Trust is the #1 conversion factor in recovery services, and Ignite's trust profile is middling. They have foundational elements — BSAS licensure, SAMHSA listing, NPI registration — but lack the depth needed to compete.
-
-The team is essentially invisible online. NPI registry lookups reveal at least four named counselors (Cassandra Martin, Amanda Smith, Kayla Quadros, Gwenyth Duclos), but their bios, credentials, and photos don't appear on the website. Owner Laura Goode has no visible founder story. In recovery, clients want to know who will be walking alongside them.
-
-Client testimonials are authentic and specific (naming staff, describing court navigation, praising patience), but too few in number. There are no video testimonials, no outcome data, and no success metrics.
-
-At least one explicitly negative review exists on Detox.net, which is disproportionately damaging given low total review volume.
-
----
+**Weaknesses:**
+- No team page — a critical gap for a relationship-centered service
+- No founder story or organizational origin narrative
+- Footer typo on the licensing statement undermines the exact credibility it claims
+- Copyright 3 years stale
+- No external validation (awards, media, partnerships, accreditations beyond BSAS)
+- No outcome data to substantiate effectiveness claims
+- Generic tagline wastes brand positioning opportunity
 
 ### Growth & Strategy Analysis
 
-**Score: 58/100**
+**Score: 31/100**
 
-| Dimension | Score |
-|-----------|-------|
-| Growth Loops | 5/10 |
-| Retention Signals | 6/10 |
-| Expansion Opportunities | 7/10 |
-| Market Timing | 9/10 |
-| Revenue Diversification | 5/10 |
-| Digital Presence Strategy | 3/10 |
+The correct business model for the population served, but near-total absence of growth infrastructure.
 
-**Key Findings:**
+**Strengths:**
+- Stated growth intentions (Grow Team, Serve More, Add Services)
+- Online intake form reduces friction
+- Statewide service eligibility is an underexploited expansion opportunity
+- Two locations show geographic expansion pattern
+- Insurance-funded model provides predictable institutional revenue
 
-**Market timing is exceptional (9/10).** Bristol County has the second highest fatal opioid overdose rate in Massachusetts. Fall River saw 75 fatal overdoses in 2020 (up 36% YoY). Fall River expects nearly $8 million in opioid settlement funds over 15 years — a direct funding opportunity. State and federal policy increasingly favors outpatient and community-based models.
-
-**Growth execution is passive.** Criminal justice referrals and directory listings drive inbound, but there are no formalized referral partnerships with hospitals/ERs, no alumni program, no content marketing flywheel, and no active social media strategy.
-
-**Expansion opportunities are real.** Telehealth already exists but isn't marketed statewide. Portuguese-language marketing is an untapped blue ocean. Opioid settlement funds represent $50K-$200K/year potential.
-
-**Revenue is undiversified.** Heavy Medicaid reliance means lower reimbursement rates and policy vulnerability. No evidence of grant funding, government contracts, employer EAP partnerships, or philanthropic revenue.
+**Weaknesses:**
+- Zero growth loops — no referral program, no content marketing, no email capture, no events, no downloadable resources
+- Single-payer dependency (MassHealth only, excluding Tufts) creates existential risk
+- Empty Events section signals ambition without follow-through
+- No content strategy — invisible in organic search for informational queries
+- No referral network visibility for institutional referral sources
+- No retention/alumni/aftercare programming signals
+- No digital marketing infrastructure (email list, remarketing, tracking)
 
 ---
 
 ## Competitor Comparison
 
-| Factor | **Ignite Recovery** | **Steppingstone Inc.** | **SSTAR** | **Fall River CTC** | **South Bay Community** |
-|--------|---------------------|----------------------|----------|-------------------|----------------------|
-| Trust Rating | 3.5/5 | 4.03/5 | 4.2/5 | 4.2/5 | N/A (CARF) |
-| Headline Clarity | 4/10 | 6/10 | 7/10 | 5/10 | 5/10 |
-| Value Prop Strength | 3/10 | 5/10 | 7/10 | 6/10 | 5/10 |
-| Trust Signals | 5/10 | 7/10 | 8/10 | 7/10 | 8/10 |
-| CTA Effectiveness | 8/10 | 5/10 | 6/10 | 4/10 | 5/10 |
-| Content Depth | 2/10 | 6/10 | 8/10 | 3/10 | 5/10 |
-| Portuguese Services | **Yes** | No | No | No | No |
-| Sign Language | **Yes** | No | No | No | No |
-| Recovery Coaching | **Yes** | Yes | No | No | No |
-| MAT Services | No | Yes | Yes | **Primary** | Limited |
-| Medicare Accepted | No | Yes | Yes | Yes | Yes |
-| Accreditation | BSAS | BSAS | Multiple | 5 accreditations | CARF |
+Based on positioning analysis of Ignite Recovery vs. typical competitors in the Southeastern MA recovery services market:
 
-**Ignite's unique position:** The only provider in the market combining Portuguese/Sign language services, recovery coaching, clinical counseling, AND wraparound support (housing, employment, case management) under one roof. This is a powerful differentiator that is currently invisible.
+| Factor | Ignite Recovery | Typical Clinical Center | Typical Peer Org | Market Leader |
+|--------|----------------|------------------------|-------------------|---------------|
+| Headline Clarity | 3/10 | 6/10 | 4/10 | 8/10 |
+| Value Prop Strength | 5/10 | 6/10 | 4/10 | 8/10 |
+| Trust Signals | 5/10 | 8/10 | 3/10 | 9/10 |
+| CTA Effectiveness | 2/10 | 6/10 | 3/10 | 8/10 |
+| SEO Optimization | 1/10 | 5/10 | 2/10 | 8/10 |
+| Content Depth | 4/10 | 7/10 | 3/10 | 9/10 |
+| Testimonial Quality | 8/10 | 5/10 | 6/10 | 7/10 |
+| Staff Visibility | 1/10 | 7/10 | 4/10 | 9/10 |
+| Outcome Data | 0/10 | 6/10 | 2/10 | 8/10 |
+| Mobile Experience | 2/10 | 5/10 | 3/10 | 8/10 |
+
+**Key Insight:** Ignite's testimonial quality (8/10) is best-in-class. But nearly every other dimension trails competitors significantly. The gap between service quality (evidenced by testimonials) and web presence quality is the central finding of this audit.
 
 ---
 
@@ -293,30 +345,33 @@ At least one explicitly negative review exists on Detox.net, which is disproport
 
 | Recommendation | Est. Monthly Impact | Confidence | Timeline |
 |---------------|-------------------|------------|----------|
-| Fix JS rendering + index all pages | $2,000–$5,000 | High | 4-6 weeks |
-| Google Business Profile creation | $1,500–$3,000 | High | 1-2 weeks |
-| Portuguese-language marketing | $3,000–$8,000 | Medium | 2-3 months |
-| Reduce callback to same-day | $2,000–$4,000 | High | 1-2 weeks |
-| Review generation campaign | $1,000–$3,000 | Medium | 3-6 months |
-| Content marketing program | $2,000–$5,000 | Medium | 6-12 months |
-| Referral partnerships (hospitals, courts) | $3,000–$8,000 | Medium | 3-6 months |
-| Opioid settlement fund contracts | $4,000–$16,000 | Medium | 6-12 months |
-| Statewide telehealth expansion | $2,000–$6,000 | Low-Medium | 6-12 months |
-| **Total Potential** | **$20,500–$58,000/mo** | | |
+| Click-to-call phone number | +3-5 new contacts/mo | High | 1 day |
+| Rewrite page titles + meta descriptions | +5-10 new contacts/mo | High | 1-2 weeks |
+| Rewrite homepage hero with services/location/insurance | +3-7 new contacts/mo | High | 1 week |
+| Add sticky mobile CTA | +2-4 new contacts/mo | Medium | 1 week |
+| Create team page | +2-3 new contacts/mo | Medium | 2 weeks |
+| Restructure contact page + add trust signals | +2-4 new contacts/mo | Medium | 2 weeks |
+| Add LocalBusiness + FAQ schema markup | +3-5 new contacts/mo | Medium | 2 weeks |
+| Expand insurance info section | +1-3 new contacts/mo | Medium | 1 week |
+| Launch blog/content strategy | +5-15 new contacts/mo | Medium | 2-3 months |
+| Build referral partner program | +5-10 new contacts/mo | High | 1-2 months |
+| **Total Potential** | **+31-66 new contacts/mo** | | |
 
-**Annualized potential: $246,000–$696,000/year** (conservative to aggressive estimates)
+*Note: Revenue per client depends on service mix and MassHealth reimbursement rates. Each new client enrolled in Recovery Coaching or Clinical Services represents ongoing monthly billing revenue.*
 
 ---
 
 ## Next Steps
 
-1. **THIS WEEK:** Create Google Business Profile + standardize NAP across directories + add meta descriptions. These are zero-cost, high-impact actions that can be completed in days.
+1. **This week:** Fix all typos, make phone number clickable, remove empty Events section, add crisis contact info, update copyright — these are 1-2 hour fixes with immediate impact
+2. **This month:** Rewrite page titles, rewrite homepage hero, create team page, add schema markup, restructure contact page — these are the highest-ROI strategic changes
+3. **This quarter:** Launch content strategy, build referral partner program, develop outcome tracking, create service-specific pages — these build sustainable growth infrastructure
 
-2. **THIS MONTH:** Address the JS rendering problem (migrate platform or implement prerendering) + reduce intake callback time to same-day + launch review generation process. These three changes alone could double effective organic reach.
-
-3. **THIS QUARTER:** Launch Portuguese-language marketing + begin content marketing program + apply for opioid settlement funding + build referral partnerships with MAT providers and courts. These are the growth levers that transform Ignite from a well-kept secret into the go-to recovery support provider in Southeastern Massachusetts.
-
-**The bottom line:** Ignite Recovery delivers strong services and has built a surprisingly good conversion experience — but almost nobody can find them online. The gap between service quality and digital visibility is the single largest constraint on growth. Closing that gap doesn't require new services or a new business model. It requires making the story they're already living visible to the people who need it most.
+**Follow-up commands for deeper analysis:**
+- `/market copy ignitemyrecovery.com` — Generate optimized copy for homepage and key pages
+- `/market seo ignitemyrecovery.com` — Deep SEO content audit with keyword targets
+- `/market competitors ignitemyrecovery.com` — Full competitive intelligence with named competitors
+- `/market funnel ignitemyrecovery.com` — Detailed conversion funnel analysis and redesign
 
 ---
 
