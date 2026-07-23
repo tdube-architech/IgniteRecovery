@@ -76,7 +76,7 @@ const Header: React.FC = () => {
                 <div className="w-64 bg-white shadow-2xl rounded-2xl border border-gray-100 overflow-hidden">
                   <Link href="/about" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">About Ignite</Link>
                   <Link href="/team" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Meet the Team</Link>
-                  <Link href="/careers" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Careers</Link>
+                  <a href="https://ignite-recovery-llc.careerplug.com/jobs" target="_blank" rel="noopener noreferrer" className="block px-6 py-4 hover:bg-lavender/10 text-brand-indigo text-sm font-bold border-b border-gray-50">Careers</a>
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
               <Link href="/services" className="text-3xl font-black text-brand-indigo">Services</Link>
               <Link href="/about" className="text-3xl font-black text-brand-indigo">About Ignite</Link>
               <Link href="/team" className="text-3xl font-black text-brand-indigo">Meet the Team</Link>
-              <Link href="/careers" className="text-3xl font-black text-brand-indigo">Careers</Link>
+              <a href="https://ignite-recovery-llc.careerplug.com/jobs" target="_blank" rel="noopener noreferrer" className="text-3xl font-black text-brand-indigo">Careers</a>
               <Link href="/resources" className="text-3xl font-black text-brand-indigo">Resources</Link>
               <Link href="/providers" className="text-3xl font-black text-brand-indigo">Providers</Link>
               <Link href="/faq" className="text-3xl font-black text-brand-indigo">F.A.Q.</Link>

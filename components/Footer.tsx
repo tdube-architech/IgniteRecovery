@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               <li><Link href="/insurance" className="hover:text-white transition-colors">Insurance</Link></li>
               <li><Link href="/resources" className="hover:text-white transition-colors">Resources</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/careers" className="hover:text-white transition-colors">Careers</Link></li>
+              <li><a href="https://ignite-recovery-llc.careerplug.com/jobs" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Careers</a></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
