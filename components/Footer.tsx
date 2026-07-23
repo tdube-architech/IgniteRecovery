@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                 <Clock size={16} className="mr-2" />
                 Operating Hours
               </div>
-              <p className="text-white font-medium">Mon-Fri: 9:00 AM - 5:00 PM</p>
+              <p className="text-white font-medium">Mon-Fri: 8:00 AM - 4:00 PM</p>
               <div className="mt-4 pt-4 border-t border-white/10">
                 <p className="text-brand-magenta font-black uppercase text-xs tracking-tighter mb-2">Crisis Resources</p>
                 <p className="text-white/80 text-sm font-medium">Suicide & Crisis Lifeline: Call or text <strong className="text-white bg-red-600 px-1 rounded">988</strong></p>
