@@ -94,6 +94,7 @@ const Header: React.FC = () => {
               </div>
             </div>
             <Link href="/insurance" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Insurance</Link>
+            <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Merch</a>
           </nav>
 
           {/* Actions & Mobile Toggle */}
@@ -139,6 +140,7 @@ const Header: React.FC = () => {
               <Link href="/faq" className="text-3xl font-black text-brand-indigo">F.A.Q.</Link>
               <Link href="/testimonials" className="text-3xl font-black text-brand-indigo">Testimonials</Link>
               <Link href="/insurance" className="text-3xl font-black text-brand-indigo">Insurance</Link>
+              <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-3xl font-black text-brand-indigo">Merch</a>
               <Link
                 href="/intake"
                 className="w-full text-center bg-brand-indigo text-white py-5 rounded-3xl text-2xl font-black shadow-lg shrink-0 mt-4"
