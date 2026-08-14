@@ -94,7 +94,10 @@ const Header: React.FC = () => {
               </div>
             </div>
             <Link href="/insurance" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Insurance</Link>
-            <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Merch</a>
+            <div className="relative group flex items-center">
+              <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-magenta text-[9px] text-white px-1.5 py-0.5 rounded-full font-black uppercase tracking-wider scale-75 select-none pointer-events-none motion-safe:animate-pulse">New</span>
+              <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-brand-indigo hover:text-[#9D89B4] hover:underline underline-offset-8 decoration-2 font-bold transition-all">Merch</a>
+            </div>
           </nav>
 
           {/* Actions & Mobile Toggle */}
@@ -140,7 +143,10 @@ const Header: React.FC = () => {
               <Link href="/faq" className="text-3xl font-black text-brand-indigo">F.A.Q.</Link>
               <Link href="/testimonials" className="text-3xl font-black text-brand-indigo">Testimonials</Link>
               <Link href="/insurance" className="text-3xl font-black text-brand-indigo">Insurance</Link>
-              <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-3xl font-black text-brand-indigo">Merch</a>
+              <div className="relative">
+                <span className="absolute -top-1 -right-6 bg-brand-magenta text-[8px] text-white px-1.5 py-0.5 rounded-full font-black uppercase tracking-wider scale-75 select-none pointer-events-none motion-safe:animate-pulse">New</span>
+                <a href="https://shop.ignitemyrecovery.com" target="_blank" rel="noopener noreferrer" className="text-3xl font-black text-brand-indigo">Merch</a>
+              </div>
               <Link
                 href="/intake"
                 className="w-full text-center bg-brand-indigo text-white py-5 rounded-3xl text-2xl font-black shadow-lg shrink-0 mt-4"
